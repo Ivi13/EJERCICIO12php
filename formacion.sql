@@ -1,0 +1,11 @@
+CREATE DATABASE formacion CHARACTER SET utf8mb4;
+
+USE formacion;
+
+CREATE TABLE cursos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(120) NOT NULL,
+  horas INT NOT NULL,
+  fecha_creacion DATETIME NOT NULL
+);
+
